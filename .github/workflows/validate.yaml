@@ -1,6 +1,7 @@
 name: Validate
 
 on:
+  repository_dispatch:
   push:
   pull_request:
   schedule:
